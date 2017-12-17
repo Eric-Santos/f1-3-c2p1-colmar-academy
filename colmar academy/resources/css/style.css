@@ -1,0 +1,306 @@
+/*global attributes*/
+body{
+  font-size: 18;
+  margin-left: 1.33rem;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+}
+h2{
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
+h5{
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+p{
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+a{
+  font-family: 'Merriweather', serif;
+}
+/*end*/
+/*mobile*/
+@media only screen and (max-width:480;){
+  header{
+
+    height: 64px;
+  }
+  .main img{
+    width:100%;
+    height: auto;
+    margin-bottom: 32px;
+  }
+}
+/*first box*/
+header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+
+}
+header h5{
+  flex-grow: 1;
+  font-size: 32px;
+}
+header nav ul{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.33rem;
+}
+li{
+  font-size: 2rem;
+  margin: .89rem;
+}
+/*second box*/
+.main{
+  display: flex;
+  background-color: #4b636e;
+  padding-bottom: 32px;
+
+}
+.main img{
+  margin: 32px 24px;
+  width: 60%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.learn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  font-size: 2rem;
+  margin-left: 24px;
+}
+.learn h1{
+  margin: 16px 0px;
+}
+.learn p{
+  margin-bottom: 16px;
+}
+.start{
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 120px;
+  background-color: black;
+
+}
+/*third box*/
+.information{
+  display: flex;
+  padding-top: 32px;
+  height: auto;
+}
+#left{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+#left img{
+  padding-bottom: 32px;
+}
+#left h1{
+  margin-bottom: 24px;
+}
+#left p{
+  margin-bottom: 24px;
+}
+#left h5{
+  margin-bottom: 32px;
+}
+.info a{
+  text-decoration: none;
+  color: #84BAEF;
+}
+#right{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+#right h2{
+  margin-bottom: 8px;
+}
+#right a{
+  margin-top: 10px;
+}
+.boxes img{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  margin-left: 24px;
+  padding: 16px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.orientation{
+  display: flex;
+}
+.campus{
+  display: flex;
+}
+.guest{
+  display: flex;
+  background-color: #4b636e;
+}
+/*fourth box*/
+.start-learning h1{
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  font-size: 32px;
+}
+/*fifth box*/
+.learning{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #4b636e;
+  margin-bottom: 32px;
+  padding-left: 72px;
+}
+.color{
+  display: flex;
+  width: 30%;
+  height: auto;
+  flex-direction: column;
+  background-color: white;
+  margin: 0px 32px 32px 0px;
+}
+.color h1{
+  margin: 0px;
+  font-size: 36px;
+}
+.color h2{
+  margin: 0px 0px 8px 16px;
+}
+.color h5{
+  margin: 8px 0px 8px 16px;
+}
+.learning h1{
+  display: flex;
+  padding: 32px;
+}
+.software{
+  display: flex;
+  width: 30%;
+  height: auto;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.software img{
+  width: 100%;
+}
+.images h1{
+  justify-content: flex-start;
+}
+.images h5{
+  justify-content: flex-start;
+}
+.computer{
+  width: 30%;
+  margin-right: 32px;
+}
+.computer img{
+  width: 100%;
+}
+.design{
+  width: 30%;
+}
+.design img{
+  width: 100%;
+}
+.data{
+  width: 30%;
+}
+.data img{
+  width: 100%;
+}
+.business{
+  width: 30%;
+}
+.business img{
+  width: 100%;
+}
+.marketing{
+  width: 30%;
+}
+.marketing img{
+  width: 100%;
+}
+/*sixth box*/
+.thesis{
+}
+.thesis h1{
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+.video{
+  margin: 0px 24px 0px 24px;
+}
+.video h2{
+  margin-bottom: 8px;
+}
+.video p{
+  margin-bottom: 32px;
+}
+video{
+  width: 100%;
+  margin-bottom: 24px;
+}
+.content{
+  display:flex;
+}
+.photos{
+  display: flex;
+  flex-direction: column;
+}
+.one{
+  display: flex;
+  background-color: #4b636e;
+}
+.one img{
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin-top: 16px;
+}
+.text h2{
+  margin-bottom: 9px;
+}
+.two{
+  display: flex;
+}
+.two img{
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+/*last*/
+footer h5{
+  margin: 16px 0px 16px 24px;
+}
+/*cell phone break points*/
